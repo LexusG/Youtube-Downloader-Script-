@@ -1,5 +1,5 @@
 # Youtube-Downloader-Script-
-Using Python to create a simple script for downloading videos
+**Using Python to create a simple script for downloading videos.**
 
 # Simple YouTube Video Downloader
 This Python script allows users to download YouTube videos in the highest available resolution using the pytube library. It's a user-friendly tool where one inputs a YouTube video URL, and the script handles the rest.
