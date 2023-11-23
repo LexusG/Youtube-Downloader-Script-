@@ -6,14 +6,20 @@ This Python script allows users to download YouTube videos in the highest availa
 
 # Features
 **Easy to Use**: The script prompts the user to enter the YouTube video URL they wish to download.
+
 **Information Display**: Before downloading, it displays the video title and view count, giving the user some basic information about the video.
+
 **High-Resolution Download**: It downloads the video in the highest available resolution.
+
 **Age Restriction Handling**: The script checks for age restrictions and gracefully informs the user if a video cannot be downloaded due to such restrictions.
 
 # How It Works
 **YouTube Object Creation**: The script uses pytube.YouTube to create a YouTube object with the provided video link.
+
 **Video Information**: It extracts and prints the video's title and view count for the user's reference.
+
 **Downloading the Video**: The script selects the highest resolution available for the video and downloads it to a specified path on the user's machine.
+
 **Error Handling**: If the video is age-restricted, the script catches the AgeRestrictedError and informs the user that the video cannot be downloaded due to these restrictions.
 
 # Usage
