@@ -17,7 +17,7 @@ try :
     # Download the video to the specified path. The 'r' before the string
     # makes it a raw string, so backslashes are treated literally and not
     # as escape characters
-    yd.download(r"C:\Users\hell_pc\Videos\Youtube Vidoes")
+    yd.download(r"C:\Users\hell_pc\Videos\Youtube Vidoes")  #add the file path for where you would like your videos downloaded here 
 
 except AgeRestrictedError:
     print(f"The video {link} is age restricted and cannot be downloaded.")
